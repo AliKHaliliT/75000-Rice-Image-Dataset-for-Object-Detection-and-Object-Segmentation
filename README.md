@@ -18,3 +18,15 @@ Rice is the seed of the grass species Oryza sativa or less commonly Oryza glaber
 12. Red Rice
 13. Rice Blends
 14. Parboiled Rice
+
+## About The Original Data
+The images were originally published by [Murat Koklu](https://www.kaggle.com/muratkokludataset) on [Kaggle](https://www.kaggle.com/) under a [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) licence. You can find the images using the following link [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset).
+
+The original data contains images of 5 Different Types of Rice and each type contains 15000 images bringing the total to 75000. 
+
+## About the Annotated Data
+For Preparing the Images for Object Detection and Object Segmentation, An Automatic Annotator Script was developed in Python. Because the annotations were created Automatically, they have a High Degree of Accuracy.
+
+The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arise. 
+
+
