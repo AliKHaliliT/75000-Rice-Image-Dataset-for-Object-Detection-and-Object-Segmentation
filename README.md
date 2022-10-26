@@ -30,12 +30,15 @@ For Preparing the Images for Object Detection and Object Segmentation, An Automa
 The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arise. 
 
 ## Tests Done
+A few tests were also done using the annotated images. For one of the tests, A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected. For this test, The Basmati Rice Images were combined in grids of 4 * 4 which brought the total sum of the images, approximately, to around 900. 
+The batch size of the model was 12 and it was trained for 20 Epochs. 
+
 
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-This implies that you are free to do everything as long as you mention the original author properly. For more information please check the License. 
+This implies that you are free to do everything as long as you mention the author properly. For more information please check the LICENSE. 
 
 
 
