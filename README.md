@@ -30,10 +30,15 @@ For Preparing the Images for Object Detection and Object Segmentation, An Automa
 The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arise. 
 
 ## Tests Done
-A few tests were also done using the annotated images. For one of the tests, A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected. For this test, The Basmati Rice Images were combined in grids of 4 * 4 which brought the total sum of the images, approximately, to around 900. 
-The batch size of the model was 12 and it was trained for 20 Epochs. 
+A few tests were also done using the annotated images. For one of the tests, A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected. For this test, The Basmati Rice Images were combined in grids of 4 * 4 which brought the total sum of the images, approximately, to around 900. The images were also resized to 512px.
+The batch size of the model was 12 and it was trained for 20 Epochs. Training Results are Shown in the Figure Below:
 
+![Training Metrics](readme_assets/index.png)
 
+For testting the model, A few Thai White Rice Images were gathered in real world scenarios(Lighting, etc) using a 16MP Phone Camera. Test images were then Resized to 2024px. With this image size, inference took approximately around 1 second.
+Belowe Figure is one the test outputs at Conf 0.8.
+
+![Test Output](readme_assets/Trained Using Basmati Rice Images - Thai White Rice - Trained on 512px - 16MP Phone Camera - Resized to 2024 - Conf 0.8 - 1S Inference - 20 Epochs - 900 Training Data Aprrox - 12 Batch.jpg)
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
