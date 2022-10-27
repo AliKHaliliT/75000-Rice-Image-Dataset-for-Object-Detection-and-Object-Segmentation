@@ -1,4 +1,4 @@
-# 75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation
+# 75000 Rice Image Dataset for Object Detection and Object Segmentation
 
 ## Intro
 Rice is the seed of the grass species Oryza sativa or, less commonly, Oryza glaberrima. Wild rice is usually used for species of the genera Zizania and Porteresia, both wild and domesticated. However, primitive or uncultivated varieties of Oryza may also use this name.
