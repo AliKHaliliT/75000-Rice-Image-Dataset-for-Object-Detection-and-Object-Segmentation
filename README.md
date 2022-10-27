@@ -30,7 +30,8 @@ For Preparing the Images for Object Detection and Object Segmentation, An Automa
 
 The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arises. 
 
-You can download 75000 Rice Images 
+You can download 75000 Rice Images Annotated for Object Detection using [this link]()
+You can download 75000 Rice Images Annotated for Object Segmentation using [this link]()
 
 ## Tests Done
 A few tests were also done using the annotated images. For one of the tests, A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected. For this test, The Basmati Rice Images were combined in grids of 4 * 4 which brought the total sum of the images, approximately, to around 900. The images were also resized to 512px.
@@ -42,6 +43,11 @@ For testting the model, A few Thai White Rice Images were gathered in real world
 Belowe Figure is one of the test outputs at Conf 0.8.
 
 ![Test Output](readme_assets/test_output.jpg)
+
+## Collaborations
+It is possible to use the annotations if you decided to resize or combine the images, but you have to map the coordinates yourself. Another option is to re-annotate the images. So If you needed any help on annotating your modified images, send me a message on my [Linkedin](https://www.linkedin.com/in/ali-khalili-790b10146/) account. 
+
+Also, I am open to collaborate on any other project or paper that you might be working on. You can check my experties on my [Linkedin](https://www.linkedin.com/in/ali-khalili-790b10146/) page and if you were interesed on working with me, send me a message on linkedin. 
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
