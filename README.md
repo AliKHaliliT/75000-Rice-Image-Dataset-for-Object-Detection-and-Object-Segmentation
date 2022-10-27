@@ -19,15 +19,18 @@ Rice is the seed of the grass species Oryza sativa or less commonly Oryza glaber
 13. Rice Blends
 14. Parboiled Rice
 
-## About The Original Data
+## Data
+### About The Original Data
 The images were originally published by [Murat Koklu](https://www.kaggle.com/muratkokludataset) on [Kaggle](https://www.kaggle.com/) under a [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/) licence. You can find the images using the following link [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset).
 
 The original data contains images of 5 Different Types of Rice and each type contains 15000 images bringing the total to 75000. 
 
-## About the Annotated Data
+### About the Annotated Data
 For Preparing the Images for Object Detection and Object Segmentation, An Automatic Annotator Script was developed in Python. Because the annotations were created Automatically, they have a High Degree of Accuracy.
 
-The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arise. 
+The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arises. 
+
+You can download 75000 Rice Images 
 
 ## Tests Done
 A few tests were also done using the annotated images. For one of the tests, A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected. For this test, The Basmati Rice Images were combined in grids of 4 * 4 which brought the total sum of the images, approximately, to around 900. The images were also resized to 512px.
@@ -36,14 +39,11 @@ The batch size of the model was 12 and it was trained for 20 Epochs. Training Re
 ![Training Metrics](readme_assets/index.png)
 
 For testting the model, A few Thai White Rice Images were gathered in real world scenarios(Lighting, etc) using a 16MP Phone Camera. Test images were then Resized to 2024px. With this image size, inference took approximately around 1 second.
-Belowe Figure is one the test outputs at Conf 0.8.
+Belowe Figure is one of the test outputs at Conf 0.8.
 
-![Test Output](readme_assets/Trained Using Basmati Rice Images - Thai White Rice - Trained on 512px - 16MP Phone Camera - Resized to 2024 - Conf 0.8 - 1S Inference - 20 Epochs - 900 Training Data Aprrox - 12 Batch.jpg)
+![Test Output](readme_assets/test_output.jpg)
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-This implies that you are free to do everything as long as you mention the author properly. For more information please check the LICENSE. 
-
-
-
+This implies that you are free to do everything as long as you mention the author properly. For more information please check the LICENSE.
