@@ -30,9 +30,9 @@ An Automatic Annotator Script was developed in Python to prepare the Images for 
 
 The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](https://www.json.org/json-en.html) format. Annotation JSONs also contain the encoded version of the images that can be used to recreate the images if the need arises. 
 
-75000 Rice Images Annotated for Object Detection can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-detection)
+75000 Rice Images Annotated for Object Detection can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-detection).
 
-75000 Rice Images Annotated for Object Segmentation can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-segmentation)
+75000 Rice Images Annotated for Object Segmentation can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-segmentation).
 
 ## Tests Done
 A few tests were also done using the annotated images. A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected for one of the tests. For this test, The Basmati Rice Images were combined in grids of 4 * 4, bringing the total sum to around 900. The images were also resized to 512px.
