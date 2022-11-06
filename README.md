@@ -32,18 +32,30 @@ The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](htt
 
 75000 Rice Images Annotated for Object Detection can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-detection).
 
+<div align="center">
+  <img src="readme_assets/dataset-cover-od.jpg"/>
+</div>
+
 75000 Rice Images Annotated for Object Segmentation can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-segmentation).
+
+<div align="center">
+  <img src="readme_assets/dataset-cover-seg.jpg"/>
+</div>
 
 ## Tests Done
 A few tests were also done using the annotated images. A Small Version of [YOLOv5](https://github.com/ultralytics/yolov5) Object Detection Model was selected for one of the tests. For this test, The Basmati Rice Images were combined in grids of 4 * 4, bringing the total sum to around 900. The images were also resized to 512px.
 The batch size of the model was 12, and it was trained for 20 Epochs. Training Results are Shown in the Figure Below:
 
-![Training Metrics](readme_assets/index.png)
+<div align="center">
+  <img src="readme_assets/index.png"/>
+</div>
 
 A few Thai White Rice Images were gathered in real-world scenarios(e.g., Lighting) using a 16MP Phone Camera to test the model. Test images were then Resized to 2024px. With this image size, inference took approximately 1 second.
 Below Figure is one of the test outputs at Conf 0.8.
 
-![Test Output](readme_assets/test_output.jpg)
+<div align="center">
+  <img src="readme_assets/test_output.jpg"/>
+</div>
 
 ## Collaborations
 It is possible to use the annotations after resizing or combining the images; however, the annotations should be mapped manually. Another option is to re-annotate the images. So If you need any help modifying the images or annotating your modified images, send me a message on my [LinkedIn](https://www.linkedin.com/in/ali-khalili-790b10146/) account. 
