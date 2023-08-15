@@ -57,10 +57,11 @@ Below Figure is one of the test outputs at Conf 0.8.
   <img src="readme_assets/test_output.jpg"/>
 </div>
 
-## Collaborations
+## Questions
 It is possible to use the annotations after resizing or combining the images; however, the annotations should be mapped manually. Another option is to re-annotate the images. So If you need any help modifying the images or annotating your modified images, send me a message on my [LinkedIn](https://www.linkedin.com/in/ali-khalili-790b10146/) account. 
-
-Also, I am open to collaborating on any other project or paper that you might be working on. You can check my expertise on my [LinkedIn](https://www.linkedin.com/in/ali-khalili-790b10146/) page and if you are interested in working with me, send me a message on LinkedIn. 
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+## Contact
+For any questions, concerns, or collaboration opportunities, please don't hesitate to contact me on my [LinkedIn](https://www.linkedin.com/in/ali-khalili-790b10146/) account.
