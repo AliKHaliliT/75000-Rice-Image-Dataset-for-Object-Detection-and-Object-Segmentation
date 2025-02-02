@@ -1,4 +1,9 @@
-![license](https://img.shields.io/github/license/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+![License](https://img.shields.io/github/license/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+![Last Commit](https://img.shields.io/github/last-commit/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+![Open Issues](https://img.shields.io/github/issues/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+![Stars](https://img.shields.io/github/stars/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+![Forks](https://img.shields.io/github/forks/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+
 
 # 75000 Rice Image Dataset for Object Detection and Object Segmentation
 
