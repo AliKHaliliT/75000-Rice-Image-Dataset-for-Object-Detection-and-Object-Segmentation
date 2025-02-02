@@ -1,3 +1,5 @@
+![license](https://img.shields.io/github/license/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation)
+
 # 75000 Rice Image Dataset for Object Detection and Object Segmentation
 
 ## Intro
