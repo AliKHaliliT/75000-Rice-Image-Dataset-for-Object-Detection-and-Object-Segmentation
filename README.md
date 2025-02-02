@@ -33,13 +33,13 @@ The Annotations are in [LabelMe](https://github.com/wkentaro/labelme) [JSON](htt
 75000 Rice Images Annotated for Object Detection can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-detection).
 
 <div align="center">
-  <img src="readme_assets/dataset-cover-od.jpg"/>
+  <img src="util_resources/readme/dataset-cover-od.jpg"/>
 </div>
 
 75000 Rice Images Annotated for Object Segmentation can be downloaded using [this link](https://www.kaggle.com/datasets/alikhalilit98/rice-image-dataset-for-object-segmentation).
 
 <div align="center">
-  <img src="readme_assets/dataset-cover-seg.jpg"/>
+  <img src="util_resources/readme/dataset-cover-seg.jpg"/>
 </div>
 
 ## Tests Done
@@ -47,14 +47,14 @@ A few tests were also done using the annotated images. A Small Version of [YOLOv
 The batch size of the model was 12, and it was trained for 20 Epochs. Training Results are Shown in the Figure Below:
 
 <div align="center">
-  <img src="readme_assets/index.png"/>
+  <img src="util_resources/readme/index.png"/>
 </div>
 
 A few Thai White Rice Images were gathered in real-world scenarios(e.g., Lighting) using a 16MP Phone Camera to test the model. Test images were then Resized to 2024px. With this image size, inference took approximately 1 second.
 Below Figure is one of the test outputs at Conf 0.8.
 
 <div align="center">
-  <img src="readme_assets/test_output.jpg"/>
+  <img src="util_resources/readme/test_output.jpg"/>
 </div>
 
 ## Questions
@@ -62,6 +62,3 @@ It is possible to use the annotations after resizing or combining the images; ho
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-## Contact
-For any questions, concerns, or collaborations, please don't hesitate to contact me on my [LinkedIn](https://www.linkedin.com/in/ali-khalili-790b10146/).
