@@ -3,8 +3,6 @@
     <img src="https://img.shields.io/github/license/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation" alt="License">
     <img src="https://img.shields.io/github/last-commit/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation" alt="Last Commit">
     <img src="https://img.shields.io/github/issues/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation" alt="Open Issues">
-    <img src="https://img.shields.io/github/stars/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation" alt="Stars">
-    <img src="https://img.shields.io/github/forks/AliKHaliliT/75000-Rice-Image-Dataset-for-Object-Detection-and-Object-Segmentation" alt="Forks">
 </div>
 <br/>
 Rice is the seed of the grass species Oryza sativa or, less commonly, Oryza glaberrima. Wild rice is usually used for species of the genera Zizania and Porteresia, both wild and domesticated. However, primitive or uncultivated varieties of Oryza may also use this name.
